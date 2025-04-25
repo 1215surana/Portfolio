@@ -1,0 +1,398 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #000; /* Set background to black */
+    color: #fff; /* Set text color to white for better visibility */
+    text-align: center;
+}
+
+header {
+    background-color: #2C3E50;
+    color: #fff;
+    padding: 80px 20px;
+}
+.links2{
+    display: flex;
+    gap: 10px;
+
+}
+.gmail{
+    border-radius: 50%;
+}
+
+
+nav {
+    background-color: #222;
+    padding: 10px;
+}
+
+nav a {
+    color: #E4B7A0;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 48px;
+    color: white;
+}
+
+p {
+    font-size: 20px;
+    color: #fff;
+    font-style: italic;
+}
+
+.section-box {
+    background-color: #1A1A1A; /* Dark background for the sections */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #E4B7A0; /* Set heading color to match the theme */
+}
+
+a {
+    color: #E4B7A0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #222;
+    padding: 20px;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2C3E50;
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 48px;
+    color:white;
+}
+
+header p {
+    font-size: 20px;
+    color: #fff;
+    font-style: italic;
+}
+
+nav {
+    background-color: #222;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #E4B7A0;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Form Section */
+.contact-container {
+    background-color: #333;
+    padding: 40px;
+    margin: 20px auto;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.contact-container h2 {
+    color: #E4B7A0;
+    text-align: center;
+    font-size: 30px;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 18px;
+    margin: 10px 0 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #E4B7A0;
+    border-radius: 4px;
+    background-color: #444;
+    color: #fff;
+    font-size: 16px;
+}
+
+.contact-form button {
+    background-color: #E4B7A0;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #C79B87;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* General Body */
+body {
+    font-family: 'Readex Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0d0d0d;
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* Header section */
+  .hero {
+    padding: 60px 20px;
+    background-color: rgb(13, 12, 12);
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 250px;
+    justify-content: center;
+  }
+  
+  .photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 3px solid #E4B7A0;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #E4B7A0;
+    margin: 10px 0;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #ccc;
+    font-style: italic;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    background-color: #111;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #E4B7A0;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: black;
+    color: #888;
+    padding: 15px 0;
+    font-size: 14px;
+    margin-top: 100px;
+  }
+  /* General Layout */
+body {
+  margin: 0;
+  font-family: 'Readex Pro', sans-serif;
+  background-color: #0d0d0d;
+  color: #fff;
+}
+
+/* Social Media Icons - Left Side */
+.left-icons {
+  position: fixed;
+  top: 50%;
+  height: 100vh;
+  width: 13%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  gap: 15px;
+  z-index: 10;
+}
+
+.left-icons img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #1a1a1a;
+  padding: 6px;
+  transition: transform 0.3s;
+}
+.sdiv{
+  margin-top: 200px;
+}
+.left-icons img:hover {
+  transform: scale(1.1);
+}
+
+/* Top Navigation */
+.top-nav {
+  background-color: #111;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.top-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.top-nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.top-nav ul li a {
+  text-decoration: none;
+  color: #E4B7A0;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.top-nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main Area */
+.main-area {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.main-area h1 {
+  font-size: 42px;
+  color: #E4B7A0;
+  margin-top: 80px;
+}
+.main-area img{
+  margin-left: 70%;
+  margin-top: -160px;
+}
+
+.main-area p {
+  font-size: 20px;
+  font-style: italic;
+  color: #ccc;
+}
+
+.photo {
+  margin-top: 30px;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #E4B7A0;
+}
+
+/* Footer */
+footer {
+  margin-top: 80px;
+  padding: 20px 0;
+  background-color: #111;
+  color: #888;
+  text-align: center;
+  font-size: 14px;
+}
+
+.linkdin1{
+    display: flex;
+    text-decoration: none;
+    
+}
+.linkdin2{
+    display: flex;
+
+}
+.linkdin3{
+    display: flex;
+
+}
+.li{
+    color: #0077b5 ;
+    font-weight: bold;
+}
+.gi{
+    font-weight: bold;
+}
+.gm{
+    font-weight: bold;
+    color: rgb(212, 103, 103);
+}
+.certi{
+    background-color: black;
+}
+.skill{
+  color: black;
+  background-color: white;
+ 
+  
+}
